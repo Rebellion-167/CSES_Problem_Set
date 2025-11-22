@@ -36,3 +36,6 @@ int main() {
     while(q--) solve();
     return 0;
 }
+
+// tc - O(q * log n)
+// sc - O(log n) due to recursion stack
